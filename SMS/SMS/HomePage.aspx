@@ -4,7 +4,8 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <title></title>
+    <title>StudentCourseManagements</title>
+    <link href="lib/font-awesome/css/all.css" rel="stylesheet" />
     <style>
         body{
             background-color:#f2d4f7;
@@ -21,19 +22,19 @@
         <div>
             <center>
            <div>
-                <h1>STUDENT COURSE MANAGEMENT SYSTEM</h1>
+                <h1><i class="fa-solid fa-book-open-reader"></i> STUDENT COURSE MANAGEMENT SYSTEM</h1>
                 </div>
                 <hr />
                 <div style="background-color:#09caf6">
-                    <b><p>ADMIN PAGE</p></b>
+                    <b><p>ADMIN LOGIN</p></b>
                 </div>
                 
                 <div>
-                    <img src="image/student.png" width="100" height="100" />
+                   <p> <i class="fa-solid fa-user fa-3x"></i></p>
             
                 <table style="background-color:#c87dc8" align="center" border="1" class="auto-style2">
                     <tr>
-                        <td>AdminuserID</td>
+                        <td>Admin Username</td>
                         <td>
                             <asp:TextBox ID="TxtadminID" runat="server" BackColor="#CCCCFF"></asp:TextBox>
                         </td>
@@ -54,8 +55,10 @@
                     </tr>
                 </table>
               </div>
-
+                <br />
+                <asp:HyperLink ID="Adminhyperlink" runat="server" NavigateUrl="~/AdminRegistration.aspx">Are you a new Admin? Register</asp:HyperLink>
             </center>
+
             <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><hr />
             <div style="background-color:#09caf6">
             <p style="text-align:center">@ASP.NET</p>

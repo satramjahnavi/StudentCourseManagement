@@ -39,4 +39,5 @@
         </tr>
     </table>
     <a href="CoursesAvailable.aspx">Courses Available</a>
+    <br /><br/><br /><br />
 </asp:Content>

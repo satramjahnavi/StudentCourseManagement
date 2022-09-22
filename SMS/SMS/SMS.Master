@@ -1,4 +1,4 @@
-﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="SCMS.Master.cs" Inherits="SMS.SMS" %>
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="SMS.Master.cs" Inherits="SMS.SMS" %>
 
 <!DOCTYPE html>
 
@@ -17,7 +17,7 @@
             <hr />
             <div style="background-color:#09caf6">
                 <br />
-                <asp:Label ID="Labeluserlogin" runat="server"></asp:Label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <asp:Label ID="Labeluserlogin" runat="server" Font-Bold="True" Font-Names="Arial Black" Font-Overline="True"></asp:Label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 <asp:LinkButton ID="Lnkabout" runat="server" OnClick="Lnkabout_Click" BackColor="#CC00CC" ForeColor="White">About us</asp:LinkButton>&nbsp;&nbsp;&nbsp;&nbsp;
             <asp:LinkButton ID="Lnkcourse" runat="server" OnClick="Lnkcourse_Click" BackColor="#CC00CC" ForeColor="White">Course</asp:LinkButton>&nbsp;&nbsp;&nbsp;&nbsp;
             <asp:LinkButton ID="Lnkmentor" runat="server" OnClick="Lnkmentor_Click" BackColor="#CC00CC" ForeColor="White">Mentor</asp:LinkButton>&nbsp;&nbsp;&nbsp;&nbsp;
@@ -27,8 +27,13 @@
                 <br />
                 </div>
             <hr />
+            
             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
             </asp:ContentPlaceHolder>
+            <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><hr />
+            <div style="background-color:#09caf6">
+            <p style="text-align:center">@ASP.NET</p>
+                </div>
         </div>
     </form>
     </center>

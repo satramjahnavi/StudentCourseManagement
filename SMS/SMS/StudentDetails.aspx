@@ -47,7 +47,7 @@
                     <asp:TextBox ID="Txtscourse" runat="server" BackColor="#CCCCFF"></asp:TextBox>
                 </td>
             </tr>
-            <tr><td>Course Enrolled:</td>
+            <tr><td>Fee Due:</td>
                 <td>
                     <asp:TextBox ID="Txtfeedue" runat="server" BackColor="#CCCCFF"></asp:TextBox>
                 </td>

@@ -75,9 +75,5 @@ namespace SMS
             con.Close();
         }
 
-        protected void Viewstudents_Click(object sender, EventArgs e)
-        {
-            Response.Redirect("Students.aspx");
-        }
     }
 }
